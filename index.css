@@ -23,6 +23,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -42,7 +43,6 @@ table {
 	border-spacing: 0;
 } 
 
-
 html {
     font-size: 62.5%;
 }
@@ -55,7 +55,7 @@ body {
 
 h1 {
     font-family: 'Chelsea Market', cursive;
-    font-size: 6rem;
+    font-size: 5rem;
 }
 
 section{
@@ -65,17 +65,17 @@ section{
 }
 
 nav{
-    padding: 2% 0;
+    padding:2% 0;
 }
 
 nav a{
     display: inline-block;
     padding: 1% 0;
     width:10%;
-    text-align: center;
-    border-radius: 10px;
-    color: white;
-    text-decoration: none;
+    text-align:center;
+    border-radius:10px;
+    color:white;
+    text-decoration:none;
 }
 
 .orange{
@@ -94,16 +94,18 @@ nav a{
 }
 
 .cta{
-    position:relative
+    position:relative;
 }
+
 .text, .image{
     display: inline-block;
 }
 .image{
     width: 30%;
 }
-.image img{
+.round{
     border-radius: 50%;
+    height: 400px;
 }
 .text{
     width:55%;
@@ -140,6 +142,16 @@ padding: 2%;
 
 footer{
     background-color: #F9E7DC;
+
 }
+
+footer a{
+    display: inline-block;
+    padding: 1% 0;
+    width:10%;
+    text-align:center;
+    border-radius:10px;
+    color:white;
+    text-decoration:none;
 
 
